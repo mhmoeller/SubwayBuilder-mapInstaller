@@ -29,26 +29,26 @@ The installation process is automated to ensure all data files end up in the cor
 7. Run the Installer:
 
 #### Windows:
-Double-click install.bat inside the CPH folder.
+Double-click install.bat inside the mapInstaller folder.
 #### macOS:
 
-Method 1 (Recommended): Open Terminal, navigate to the CPH folder and run:
+Method 1 (Recommended): Open Terminal, navigate to the mapInstaller folder and run:
 ```
 ./install.sh
 ```
 Method 2: Right-click install.sh, select "Open With" → "Terminal"
 
-Method 3: In Finder, open the CPH folder, then open Terminal and drag install.sh into the Terminal window, press Enter
+Method 3: In Finder, open the mapInstaller folder, then open Terminal and drag install.sh into the Terminal window, press Enter
 
 #### Linux:
 
-Open a terminal in the CPH folder and run:
+Open a terminal in the mapInstaller folder and run:
 ```
 chmod +x install.sh
 ./install.sh
 ```
 Wait for the script to finish. It will:
-Move the heavy data files (.gz) to the cities/data/CPH folder.
+Move the heavy data files (.gz) to the cities/data/{map} folder.
 Generate a serve.bat file for you.
 
 ## How to Play
